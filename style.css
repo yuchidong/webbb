@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+*{
+/*   border:solid 1px black;
+  font-family: 'Kosugi Maru', sans-serif; */
+  font-family: 'Noto Sans TC', sans-serif;
+  
+}
+
+/* .navbar-nav{
+  margin-left:200px; */
+}
+
+.container{
+  padding-top:5px;
+}
+.ncyu{
+  padding-top:100px;
+}
+section{
+  padding-top:150px;
+}
+section#s1{
+  background:#cfbac2;
+}
+section#s2{
+  background:#e3bfcc;
+}
+section#s3{
+  background:#e6d3da;
+}
+
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
